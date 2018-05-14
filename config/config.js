@@ -6,6 +6,7 @@ module.exports = {
         host: process.env.DATABASE_HOST || '127.0.0.1',
         database: 'appointment',
         user: 'appointment',
-        password: 'appointment'
+        password: 'appointment',
+        dialect: 'mysql'
     }
 };
