@@ -4,6 +4,7 @@
   "description": "Appointment microservice",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mauricio Giraldo",
