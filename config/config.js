@@ -3,7 +3,7 @@ module.exports = {
     graphqlEndpoint:'/graphql',
     graphiqlEndpoint:'/graphiql',
     db: {
-        host: process.env.DATABASE_HOST || '127.0.0.1',
+        host: '172.17.0.2',
         database: 'appointment',
         user: 'appointment',
         password: 'appointment',
