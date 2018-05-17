@@ -5,7 +5,7 @@ export default{
     getAppointment: (parent, { id }) => {
       Repository.getAppointment({ id });
     },
-    allAppointments: () => Repository.allAppointmens(),
+    allAppointments: (parent, args, context) => Repository.allAppointmens(),
   },
 
   Mutation: {

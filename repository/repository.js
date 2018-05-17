@@ -6,7 +6,7 @@ function getAppointment(id) {
 }
 
 function allAppointmens() {
-  models.Appointment.findAll().then(appointments => appointments);
+  return models.Appointment.findAll().then(appointments => appointments);
 }
 
 module.exports = {
