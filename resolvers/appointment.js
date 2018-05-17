@@ -5,7 +5,9 @@ export default{
     getAppointment: (parent, { id }) => {
       Repository.getAppointment({ id });
     },
-    allAppointments: (parent, args, { models }) => models.Appointment.findAll(),
+    allAppointments: () => {
+      Repository.allAppointmens();
+    },
   },
 
   Mutation: {
